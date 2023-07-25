@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookmark</title>
+    <link rel="icon" href="favicon/favicon.ico">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<img src="" alt="">
+    <div class="container my-4 ">
+    <h1 class="text-center my-4 p-3 heaad">
+        <i class="fa-solid fa-bookmark fa-beat-fade display-5 my-auto" style="color: #e0b51a;"> bookmarker</i>
+
+    </h1>
+    <div class="card border-black  sa">
+        <i class="fa-solid fa-bookmark text-success fs-4 mt-3 text-center"> Bookmark your <span class="ds"> favorite sites</span>  <i class="fa-solid fa-bookmark iconinput fs-4 mt-3 text-center"> </i></i> 
+        <div class="container p-4">
+            <div class="mb-3">
+                <i class="fa-solid fa-floppy-disk me-2 fs-5"></i>
+                <label for="siteName" class="form-label fw-bold "> Site Name                </label>
+                <input type="text" id="siteName"  class="form-control" placeholder="Enter Site Name">
+            </div>
+              <div class="mb-3">
+                <i class="fa-brands fa-squarespace me-2 fs-5"></i>
+                <label for="url" class="form-label fw-bold">Site URL                </label>
+                <input type="text" class="form-control" id="url" placeholder="Website URL (ex : https://facebook.com)">
+
+
+              </div>
+              <div class="container text-center mt-4">
+
+              <button class="btn btn-danger " onclick="addSite()"> submit</button>
+            </div>
+        </div>
+
+
+        </div>
+
+        
+      <div class="">
+      </div>
+      
+    </div>
+<table class="table text-center mt-3">
+    <thead>
+        <th >Index</th>
+        <th>Website Name</th>
+        <th>Visit</th>
+        <th>Delete</th>
+        
+
+    </thead>
+    <tbody id="dataShow">
+
+    </tbody>
+    </div>
+    
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+    <script src="javascript/index.js"></script>
+    <script src="javascript/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</body>
+
+</html>

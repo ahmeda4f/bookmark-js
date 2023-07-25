@@ -1,0 +1,13 @@
+body{
+    background-color:hsl(54, 39%, 85%) !important;
+
+}
+.sa{
+    border: dotted !important;
+    border-left: none !important;
+    border-right: none!important;
+    background-color:rgb(232, 229, 202) !important;
+}
+.iconinput{
+    color: rgb(134, 173, 74);
+}
